@@ -1,0 +1,22 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and build/cache artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Runtime outputs
+research/
+output/
+long-blog-to-viral-social-posts/assets/social/
+
+# macOS metadata
+.DS_Store
