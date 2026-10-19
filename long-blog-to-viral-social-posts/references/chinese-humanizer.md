@@ -76,6 +76,12 @@ Scan the complete package first. Mark only the passages that exhibit a real
 problem. Do not rewrite a sentence merely because it contains a word that often
 appears in AI-generated text.
 
+For a candidate match, choose **edit**, **keep**, or **flag a source gap**.
+Edit only when the surrounding meaning shows a concrete problem. Keep useful
+rhetoric and precise terms; when evidence is missing, do not invent a replacement
+fact, reaction, or opinion. Examples below are editorial guidance, not additional
+source material for a post.
+
 ### A. Content-pattern scan
 
 1. **Inflated significance**
@@ -119,9 +125,10 @@ appears in AI-generated text.
    abstract nouns.
 
 9. **Repeated negative contrasts**
-   Rewrite repeated `不是……而是……`, `不只是……更是……`, or
-   `不仅仅……而且……`. Keep one only when the contrast is the selected Hook
-   mechanism and the body proves both sides.
+   Review `不是……而是……`, `不只是……更是……`, and `不仅仅……而且……`
+   when they repeatedly stage a reveal without explaining a difference. Keep
+   source-supported corrections and decision distinctions, including in the body.
+   Repetition alone is not a reason to delete a meaningful contrast.
 
 10. **Forced groups of three**
     Break decorative three-part lists and repeated three-beat sentences.
@@ -217,6 +224,33 @@ appears in AI-generated text.
     paragraph pattern, ending question, favorite phrase, or account voice.
     Preserve the planned diversity without forcing arbitrary quirks.
 
+29. **Performed candor and personal reactions**
+    Review `说句实话`, `坦白讲`, `我必须说一句`, `我反复看了三遍`, and
+    `这件事让我想了很久`. Remove separable framing when it adds no information.
+    Personal attention, emotions, and reactions require source support; never
+    add them to make the speaker sound human. Preserve a supplied reaction when
+    it matters, and retain substantive disclosures such as `这个结果还没实测`.
+
+30. **Empty recommendation closers**
+    Review `建议收藏，反复阅读`, `强烈建议每个 SEO 人看看`, and `看完你就懂了`
+    when they substitute endorsement for useful content. Cut the generic praise
+    or name the specific source-backed use. Keep a save/use prompt tied to an
+    actual checklist and future task, and preserve the short CTA phrase + link.
+
+### Context Decisions For Chinese Social Copy
+
+| Candidate | Decision and reason |
+|---|---|
+| `不是一词一页，而是一词簇一页。` | **Keep** when supported: it distinguishes two planning decisions. Do not flatten it merely because it is a reversal. |
+| `这不仅是一个工具，更是一场革命。` | **Flag a source gap** if the source gives no basis for the claim. Remove unsupported inflation; do not invent a differentiator. |
+| `词很像。需求却不同。` | **Keep** when the next lines explain the difference with source evidence. Short sentences are legitimate in a social post. |
+| `你以为。结束了？并没有。` | **Edit** if it only manufactures suspense: state the supported point in a complete sentence, without adding stakes. |
+| `Keep：保留；Update：更新；Merge：合并；New：新建。` | **Keep** when these are the actual categories. Useful label lists need no cosmetic conversion to prose. |
+| `Page Owner` repeated in one paragraph | **Keep** if each occurrence names the same precise concept. Do not cycle through vague synonyms to create variety. |
+| `说句实话，这个案例真的值得每个 SEO 人反复研究。` | **Edit**: remove the empty recommendation and lead with the finding already supplied by the source. If there is no finding, flag the gap. |
+| `我反复看了三遍。` | **Keep** only if the source records that experience and it serves the post; otherwise remove it. Never add it during rewriting. |
+| `下次拆页前，用这份清单核对搜索需求和页面体验。` | **Keep** when the post delivers that checklist. This is a concrete save/use prompt. |
+
 ## Stage 3: Rewrite With Minimum Necessary Change
 
 Work post by post, then review the portfolio as a set.
@@ -238,13 +272,15 @@ Vary sentence and paragraph length only when the idea benefits. Do not add
 choppy fragments, random asides, deliberate messiness, or slang as proof of
 humanity.
 
-Use first person only when:
-
-- The source contains the author's first-person experience or judgment; or
-- The user supplied an account voice and authorized first-person positioning.
+Use first person for a source-supported experience or judgment belonging to the
+publishing author, or when the user authorizes first-person positioning of an
+existing source-supported point. Voice authorization changes perspective only;
+it does not supply facts, experience, opinions, preferences, emotions, or
+reactions. Do not transfer another author's experience to the publishing account.
 
 Never invent `我测试了`, `我发现`, `我和客户聊过`, `我们帮助了`, or similar
-experience claims.
+experience claims. For example, `用第一人称写` does not authorize adding
+`我帮客户踩过这个坑` when neither the source nor the user records that experience.
 
 ## Stage 4: Tune Each Publishable Component
 
@@ -278,9 +314,10 @@ experience claims.
 
 - Preserve the exact destination URL or placeholder.
 - Preserve resource scope, gating disclosure, and promise.
-- Include resource value, what it contains, one low-friction action, and the
-  exact link.
-- Do not repeat the entire post or introduce a second conversion goal.
+- Use one short CTA phrase plus the exact link. Aim for 4-12 Chinese characters
+  before the link; keep any required gating disclosure brief.
+- Do not expand the CTA into a resource summary, contents list, repeated post
+  takeaways, or a second conversion goal.
 
 ### Trend adaptation
 
@@ -332,6 +369,13 @@ the limitation in Publishing Notes. Keep scores private unless requested.
 After this pass succeeds, continue to the parent skill's Step 11 scoring. The
 Humanization Pass does not replace the parent skill's attention, engagement, and
 conversion evaluation.
+
+If Step 11 or a later correction changes Chinese publishable copy, recheck the
+changed passages against the rewrite lock and relevant expression rules. Then
+check all three final posts together for distinct openings, engagement prompts,
+and CTA continuity. Apply this check to the final delivered text, including
+comments/replies; an earlier passing draft does not validate later edits. Keep
+these checks private unless the user asks for an audit.
 
 ## Final Silent Checklist
 

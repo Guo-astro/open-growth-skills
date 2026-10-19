@@ -275,18 +275,24 @@ Create one corresponding author comment or reply for every post.
 Use this structure:
 
 ```text
-Resource value + what it includes + one low-friction action + exact link
+Short CTA phrase + exact link
 ```
 
 Valid patterns include:
 
-- `Read the complete report, including [specific value]: [URL]`
-- `Get the free [resource] and use it for [job]: [URL]`
-- `The full prompt and tool list are here: [URL]`
-- `See the complete walkthrough and examples: [URL]`
+- `完整方法：[URL]`
+- `看拆页示例：[URL]`
+- `查看完整清单：[URL]`
+- `Read the full guide: [URL]`
 
-Match the promise in the main post exactly. Disclose a signup or form when the
-resource is gated. Do not use a link-only comment, misleading `free` language,
+Use one short phrase followed by the link, on one line or with the link on the
+next line. Aim for 4-12 Chinese characters or 3-8 English words before the link.
+Do not add a resource summary, contents list, repeated post takeaways, or a
+second call to action. Keep the main post's Soft CTA brief as well.
+
+Match the promise in the main post exactly. Briefly disclose a required signup
+or form when the resource is gated, even if that exceeds the phrase target.
+Do not use a link-only comment, misleading `free` language,
 or a generic homepage when a specific destination is available.
 
 ### 9. Use Trends Only With A Real Bridge
@@ -342,11 +348,22 @@ Fail the draft regardless of score when any condition is true:
 - The Hook creates a promise the body does not repay.
 - The engagement prompt is manipulative or generic.
 - The main-post promise and Pinned/First Comment CTA do not match.
+- The Pinned/First Comment CTA adds a summary or contents list instead of a
+  short CTA phrase and link (plus any necessary gating disclosure).
 - A missing destination URL is not clearly marked as a placeholder.
 - The Chinese Humanization Pass changes a locked quote, content atom, claim,
   evidence boundary, business objective, or CTA promise.
 - Chinese copy reads like literal translation or uses empty phrasing in place
   of source evidence and practical value.
+
+After scoring revisions or any later correction to Chinese publishable copy,
+recheck the changed passages using `references/chinese-humanizer.md`, including
+source fidelity, context exceptions, and first-person provenance. Review the
+three final posts and their comments/replies together for portfolio diversity,
+platform limits, and short CTA phrase + link continuity. Repair any regression
+before delivery and recheck the repaired passages; passing Step 10 on an earlier
+draft is not sufficient. Keep the review private and deliver only the final
+three-post package.
 
 ### 12. Continue With Visual Selection
 
